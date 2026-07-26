@@ -16,8 +16,8 @@
   <Project Path="Unity.VSCode.Editor.csproj" />
   <Project Path="Unity.Burst.Editor.csproj" />
   <Project Path="Unity.AI.Navigation.Updater.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.Collections.CodeGen.csproj" />
   <Project Path="Unity.Mathematics.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.Collections.Editor.csproj" />
 </Solution>
