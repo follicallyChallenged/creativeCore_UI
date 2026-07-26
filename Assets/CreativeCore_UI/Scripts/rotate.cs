@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class rotate : MonoBehaviour
 {
-    public GameObject rot;
+    public float rotateSpeed = 20f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,6 +13,6 @@ public class rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rot.transform.Rotate(0, 1, 0);
+        transform.Rotate(0, rotateSpeed*Time.deltaTime,0);
     }
 }
